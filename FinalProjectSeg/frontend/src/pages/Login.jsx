@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../Context/AuthContext"; // Make sure the path is correct
+import { useAuth } from "../context/AuthContext"; // Make sure the path is correct
 
 export default function Login() {
   const [email, setEmail] = useState("");
