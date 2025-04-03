@@ -15,11 +15,11 @@ const firebaseConfig = {
 
 
 // Inicializar Firebase solo si no está ya inicializado
-if (!admin.apps.length) {
+/* if (!admin.apps.length) {
   admin.initializeApp({
     credential: admin.credential.cert(firebaseConfig)
   });
-}
+} */
 
 const db = admin.firestore();
 
